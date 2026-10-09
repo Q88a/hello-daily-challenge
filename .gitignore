@@ -1,0 +1,41 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== Django =====
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+
+# ===== Node / Tailwind =====
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+
+# ===== 本项目要忽略的 =====
+hello.py
+
+# 中文每日一题目录（如果都在同一个目录）
+mysite/每日一题/
+
+# 某些构建产物
+mysite/static/css/blog.css
+mysite/static/css/blog.css.map
+
+# 数据文件
+users.json
